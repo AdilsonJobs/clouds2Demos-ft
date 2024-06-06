@@ -4,7 +4,7 @@ provider "aws" {
     secret_key = "${var.secretkey}"
     #zCloud endpoints
     endpoints {
-        ec2 = "https://lad-z-mnode.clouds2africa.com/api/v2/aws/ec2"
+        ec2 = "https://for2-z-mnode.clouds2brasil.com.br/api/v2/aws/ec2"
         }
 
     skip_metadata_api_check = true
